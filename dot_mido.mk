@@ -24,11 +24,11 @@ TARGET_BOOT_ANIMATION_RES := 1080
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := arrow_mido
+PRODUCT_NAME := dot_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
@@ -41,4 +41,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="mido-user 7.0 NRD90M V9.6.1.0.NCFMIFD release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:user/release-keys"
+BUILD_FINGERPRINT := "xiaomi/mido/mido:7.0/NRD90M/V9.6.1.0.NCFMIFD:Gshfty/release-keys"
