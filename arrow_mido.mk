@@ -22,12 +22,12 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common ArrowOS stuff.
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/dot/config/common.mk)
 
 # Device identifier. This must come after all inclusions
-DEVICE_MAINTAINER := Ganesh Varma, Giammarco Senatore
+DEVICE_MAINTAINER := Gshfty
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := arrow_mido
+PRODUCT_NAME := dot_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
